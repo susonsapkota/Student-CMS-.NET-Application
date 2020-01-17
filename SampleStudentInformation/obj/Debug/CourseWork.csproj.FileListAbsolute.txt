@@ -1,0 +1,12 @@
+E:\Projects\net\suson-cw\SampleStudentInformation\bin\Debug\CourseWork.exe.config
+E:\Projects\net\suson-cw\SampleStudentInformation\bin\Debug\CourseWork.exe
+E:\Projects\net\suson-cw\SampleStudentInformation\bin\Debug\CourseWork.pdb
+E:\Projects\net\suson-cw\SampleStudentInformation\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\net\suson-cw\SampleStudentInformation\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\net\suson-cw\SampleStudentInformation\obj\Debug\CourseWork.csprojAssemblyReference.cache
+E:\Projects\net\suson-cw\SampleStudentInformation\obj\Debug\CourseWork.Properties.Resources.resources
+E:\Projects\net\suson-cw\SampleStudentInformation\obj\Debug\CourseWork.StudentForm.resources
+E:\Projects\net\suson-cw\SampleStudentInformation\obj\Debug\CourseWork.csproj.GenerateResource.cache
+E:\Projects\net\suson-cw\SampleStudentInformation\obj\Debug\CourseWork.csproj.CopyComplete
+E:\Projects\net\suson-cw\SampleStudentInformation\obj\Debug\CourseWork.exe
+E:\Projects\net\suson-cw\SampleStudentInformation\obj\Debug\CourseWork.pdb
