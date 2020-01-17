@@ -13,18 +13,12 @@ namespace CourseWork
     public static class Utility
     {
 
-        public static void Export() { }
-        public static void Import() { }
         public static void WriteToTextFile(string path, string data, bool append = true, int count = 1)
         {
             if (!File.Exists(path))
             {
                 var file = File.Create(path);
                 file.Close();
-                //using (StreamWriter writer = new StreamWriter(path, append: append))
-                //{
-                //    writer.WriteLine("[");
-                //}
             }
             using (StreamWriter writer = new StreamWriter(path, append: append))
             {

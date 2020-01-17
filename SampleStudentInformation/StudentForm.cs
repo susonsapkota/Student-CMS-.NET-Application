@@ -16,12 +16,10 @@ namespace CourseWork
             btnUpdate.Visible = false;
             reportTable.Columns[1].Width = 100;
             reportTable.Columns[0].Width = 275;
+            
 
         }
 
-        private void btnSubmit_Click(object sender, EventArgs e)
-        {
-        }
         private void BindGrid()
         {
             Student obj = new Student();
@@ -84,13 +82,10 @@ namespace CourseWork
             int id = 0;
             string myValue = dataGridStudents[e.Row.Index, 0].Value.ToString();
 
-            //get the clicked id 
-            //read text file 
             Student obj = new Student();
             List<Student> listStudents = obj.List();
             Student s = listStudents.Where(x => x.Id == id).FirstOrDefault();
-            //txtFirstName.Text = s.Name.Split(' ')[0];
-            //txtLastName.Text = s.Name.Split(' ')[1];
+
         }
 
         private void BindChart(List<Student> lst)
@@ -360,9 +355,18 @@ namespace CourseWork
         }
         private void generatebtn_Click(object sender, EventArgs e)
         {
+            DateTime selected;
 
+            if (String.IsNullOrEmpty(reportDate.Value.ToString()))
+            {
+                 selected = DateTime.Now;
+            }
+            else
+            {
+                 selected = reportDate.Value;
+            }
+           
 
-            DateTime selected = reportDate.Value;
             var culture = System.Threading.Thread.CurrentThread.CurrentCulture;
             var diff = selected.DayOfWeek - culture.DateTimeFormat.FirstDayOfWeek;
             if (diff < 0)

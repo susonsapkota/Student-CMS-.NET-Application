@@ -23,11 +23,6 @@ namespace CourseWork
             Utility.WriteToTextFile(_filePath, data);
 
         }
-        public Student Edit(int id)
-        {
-            Student obj = new Student();
-            return obj;
-        }
         public void Edit(Student info)
         {
             //invoking list method of the student class to get student list
@@ -59,11 +54,7 @@ namespace CourseWork
             Utility.WriteToTextFile(_filePath, data, false, count);
 
         }
-        public Student Detail(int id)
-        {
-            Student obj = new Student();
-            return obj;
-        }
+
         public List<Student> List()
         {
             string d = Utility.ReadFromTextFile(_filePath);

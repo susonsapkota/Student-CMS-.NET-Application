@@ -50,7 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BubbleSort.cs" />
     <Compile Include="StudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
